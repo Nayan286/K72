@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media query.css" />
+    <link rel="shortcut icon" href="https://k72.ca/assets/images/favicons/favicon-32x32.png?v=20240527152606" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Bubble Game</title>
+</head>
+
+<body>
+
+    <div class="bubbleGame-loader">
+        <div class="bubbleGame-loader-content">
+            <div class="bubbleGame-text">Bubble Game</div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="bubble-section">
+            <div class="bubble-game">
+                <div class="bubble-top bubble-rows">
+                    <div class="bubble-hit game-stat">
+                        <h3>hit</h3>
+                        <div class="hit stat">0</div>
+                    </div>
+                    <div class="bubble-timer game-stat">
+                        <h3>timer</h3>
+                        <div class="timer stat">00</div>
+                    </div>
+                    <div class="bubble-score game-stat">
+                        <h3>score</h3>
+                        <div class="score stat">0</div>
+                    </div>
+                </div>
+                <div class="bubble-play bubble-rows"></div>
+                <div class="bubble-bottom bubble-rows">
+                    <div class="music-play-btn game-controls">
+                        <i class="ri-volume-up-fill"></i>
+                    </div>
+                    <div class="game-start game-controls">play</div>
+                    <div class="game-pause-btn game-controls">
+                        <i class="ri-pause-large-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

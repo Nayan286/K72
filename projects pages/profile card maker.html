@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media query.css" />
+    <link rel="shortcut icon" href="https://k72.ca/assets/images/favicons/favicon-32x32.png?v=20240527152606"
+        type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>K72 - Profile Card Maker</title>
+</head>
+
+<body>
+
+    <div class="profileCard-loader">
+        <div class="profileCard-loader-content">
+            <div class="profileCardMaker-text">Profilr</div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="profile-maker-content">
+            <div class="profile-nav">
+                <div class="profile-logo">
+                    <img src="./images/generated-image__2_-removebg-preview.png" alt="img">
+                </div>
+            </div>
+            <div class="card-making-content">
+                <div class="input-form info-content">
+                    <h2>create your profile card</h2>
+                    <div class="input-fields">
+                        <div class="username-input input-field">
+                            <label>Name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="userbio-input input-field">
+                            <label>bio</label>
+                            <textarea name="" id="" placeholder="Write a short bio about yourself"
+                                maxlength="60"></textarea>
+                        </div>
+                        <div class="userlocation-input input-field">
+                            <label>location</label>
+                            <input type="text" placeholder="Enter country">
+                        </div>
+                        <div class="userskill-input input-field">
+                            <label>skill name</label>
+                            <input type="text" placeholder="enter skills">
+                        </div>
+                        <div class="skill-ratings">
+                            <h3>skill ratings</h3>
+                            <div class="skill-rating">
+                                <div class="knowledge skill-rate">
+                                    <label>knowledge depth:</label>
+                                    <input type="text" pattern="[0-9]*" maxlength="1">
+                                </div>
+                                <div class="execution skill-rate">
+                                    <label>execution:</label>
+                                    <input type="text" pattern="[0-9]*" maxlength="1">
+                                </div>
+                                <div class="value-delivered skill-rate">
+                                    <label>value delivered:</label>
+                                    <input type="text" pattern="[0-9]*" maxlength="1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-generate-reset-btns">
+                        <button class="card-generate">create card</button>
+                        <button class="card-reset">reset</button>
+                    </div>
+                </div>
+                <div class="card-preview-section info-content">
+                    <!-- <div class="profile-card">
+                        <div class="card-content">
+                            <div class="user-profile">
+                                <div class="user-info">
+                                    <div class="username">
+                                        <h2>nayan thakare</h2>
+                                    </div>
+                                    <div class="user-bio">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="user-deep-info">
+                                        <div class="user-skills-locate">
+                                            <div class="user-skills same-style">
+                                                <h3>skills</h3>
+                                                <div class="skill-count">0</div>
+                                            </div>
+                                            <div class="user-locate same-style">
+                                                <h3>country</h3>
+                                                <div class="country-name">india</div>
+                                            </div>
+                                        </div>
+                                        <div class="see-skills-btn">
+                                            <button>see skills</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rating-status">
+                                    <h3>0.0</h3>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="badge">
+                            <img src="./images/DIAMOND_Banner_with_4_Stars-removebg-preview.png" alt="badge img">
+                        </div>
+                        <div class="skill-shown-box">
+                            <h3>skills</h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
